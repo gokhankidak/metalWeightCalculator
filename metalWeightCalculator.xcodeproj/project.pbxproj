@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F19A29F2AC6F411007113E5 /* CalculatorViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19A29E2AC6F411007113E5 /* CalculatorViewControllerExtension.swift */; };
+		9F19A2A12ACACFF5007113E5 /* SolidCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19A2A02ACACFF5007113E5 /* SolidCalculator.swift */; };
+		9F19A2A32ACAD1C6007113E5 /* SolidCalculators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19A2A22ACAD1C6007113E5 /* SolidCalculators.swift */; };
+		9F19A2A52ACAD1DF007113E5 /* SolidObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19A2A42ACAD1DF007113E5 /* SolidObjects.swift */; };
+		9F19A2A72ACAF001007113E5 /* SolidMaterialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F19A2A62ACAF001007113E5 /* SolidMaterialTableViewController.swift */; };
 		9F8A629B2ABD9D240008B7AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A629A2ABD9D240008B7AF /* AppDelegate.swift */; };
 		9F8A629D2ABD9D240008B7AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A629C2ABD9D240008B7AF /* SceneDelegate.swift */; };
 		9F8A629F2ABD9D240008B7AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A629E2ABD9D240008B7AF /* ViewController.swift */; };
 		9F8A62A22ABD9D240008B7AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8A62A02ABD9D240008B7AF /* Main.storyboard */; };
 		9F8A62A42ABD9D250008B7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8A62A32ABD9D250008B7AF /* Assets.xcassets */; };
 		9F8A62A72ABD9D250008B7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8A62A52ABD9D250008B7AF /* LaunchScreen.storyboard */; };
+		9F8A62AF2ABF5F780008B7AF /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8A62AE2ABF5F780008B7AF /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F19A29E2AC6F411007113E5 /* CalculatorViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewControllerExtension.swift; sourceTree = "<group>"; };
+		9F19A2A02ACACFF5007113E5 /* SolidCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidCalculator.swift; sourceTree = "<group>"; };
+		9F19A2A22ACAD1C6007113E5 /* SolidCalculators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidCalculators.swift; sourceTree = "<group>"; };
+		9F19A2A42ACAD1DF007113E5 /* SolidObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidObjects.swift; sourceTree = "<group>"; };
+		9F19A2A62ACAF001007113E5 /* SolidMaterialTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidMaterialTableViewController.swift; sourceTree = "<group>"; };
 		9F8A62972ABD9D240008B7AF /* metalWeightCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metalWeightCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8A629A2ABD9D240008B7AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F8A629C2ABD9D240008B7AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		9F8A62A32ABD9D250008B7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8A62A62ABD9D250008B7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8A62A82ABD9D250008B7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8A62AE2ABF5F780008B7AF /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; tabWidth = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,11 @@
 		9F8A628E2ABD9D240008B7AF = {
 			isa = PBXGroup;
 			children = (
+				9F19A2A62ACAF001007113E5 /* SolidMaterialTableViewController.swift */,
+				9F19A2A42ACAD1DF007113E5 /* SolidObjects.swift */,
+				9F19A2A22ACAD1C6007113E5 /* SolidCalculators.swift */,
+				9F19A2A02ACACFF5007113E5 /* SolidCalculator.swift */,
+				9F19A29E2AC6F411007113E5 /* CalculatorViewControllerExtension.swift */,
 				9F8A62992ABD9D240008B7AF /* metalWeightCalculator */,
 				9F8A62982ABD9D240008B7AF /* Products */,
 			);
@@ -60,6 +77,7 @@
 				9F8A629C2ABD9D240008B7AF /* SceneDelegate.swift */,
 				9F8A629E2ABD9D240008B7AF /* ViewController.swift */,
 				9F8A62A02ABD9D240008B7AF /* Main.storyboard */,
+				9F8A62AE2ABF5F780008B7AF /* CalculatorViewController.swift */,
 				9F8A62A32ABD9D250008B7AF /* Assets.xcassets */,
 				9F8A62A52ABD9D250008B7AF /* LaunchScreen.storyboard */,
 				9F8A62A82ABD9D250008B7AF /* Info.plist */,
@@ -139,8 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8A629F2ABD9D240008B7AF /* ViewController.swift in Sources */,
+				9F19A29F2AC6F411007113E5 /* CalculatorViewControllerExtension.swift in Sources */,
+				9F19A2A52ACAD1DF007113E5 /* SolidObjects.swift in Sources */,
 				9F8A629B2ABD9D240008B7AF /* AppDelegate.swift in Sources */,
+				9F19A2A12ACACFF5007113E5 /* SolidCalculator.swift in Sources */,
+				9F8A62AF2ABF5F780008B7AF /* CalculatorViewController.swift in Sources */,
+				9F19A2A72ACAF001007113E5 /* SolidMaterialTableViewController.swift in Sources */,
 				9F8A629D2ABD9D240008B7AF /* SceneDelegate.swift in Sources */,
+				9F19A2A32ACAD1C6007113E5 /* SolidCalculators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,11 +318,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = metalWeightCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Metal Weight Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,11 +347,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = metalWeightCalculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Metal Weight Calculator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
